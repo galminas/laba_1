@@ -4,8 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.c \
-    myfunc.c \
-    korenb.c
+    myfunc.c 
 
 HEADERS += \
     myfunc.h
