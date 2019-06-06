@@ -15,9 +15,8 @@ QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
 LIBS += -lgcov
 
 
-HEADERS +=     tst_test1.h \
-    ../app/myfunc.h \
-    fibonachi_test.h
+HEADERS +=   ../app/myfunc.h \
+             fibonachi_test.h
 
 SOURCES +=     main.cpp \
     ../app/myfunc.c
